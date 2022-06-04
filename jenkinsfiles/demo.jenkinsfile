@@ -1,0 +1,6 @@
+// Jenkinsfile
+
+@Library('my-shared-library@main') _
+
+base()
+
