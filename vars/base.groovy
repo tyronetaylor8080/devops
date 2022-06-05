@@ -1,6 +1,6 @@
 
 def call(){
-    def message = new com.Utils()
+    def message = new org.common.Utils()
     
     pipeline {
         agent any
@@ -38,8 +38,7 @@ def call(){
             stage('Build') {
                 steps {
                     script {
-                        message.PrintMes("Build","blue")
-                        sh 'pwd'                        
+                        message.PrintMes("Build","blue")                      
                     }
                 }
             }
