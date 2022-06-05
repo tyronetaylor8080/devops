@@ -1,11 +1,11 @@
 # devops
 
 jenkins-pipeline-libraries 
-
+Jenkins共享库模板
 
 ```
-cd existing_repo
-git remote add origin http://mygitlab.io/cpadmin/devops.git
-git branch -M main
-git push -uf origin main
+
+git remote add origin http://mygitlab.io/devops.git
+
+
 ```
