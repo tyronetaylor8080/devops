@@ -4,9 +4,8 @@ jenkins-pipeline-libraries
 
 
 ```
-git clone https://github.com/tyronetaylor808/devops.git
-git add .
-git commit -m "xxxx"
-git pull
-git push
+cd existing_repo
+git remote add origin http://mygitlab.io/cpadmin/devops.git
+git branch -M main
+git push -uf origin main
 ```
