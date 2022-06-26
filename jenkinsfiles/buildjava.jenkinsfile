@@ -1,0 +1,7 @@
+// Jenkinsfile 文件名必须小写
+
+@Library('my-shared-library@main') _
+
+buildJava()
+
+
