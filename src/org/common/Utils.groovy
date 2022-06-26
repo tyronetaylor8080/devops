@@ -1,6 +1,5 @@
 package org.common
 
-
 //格式化输出-->信息和颜色传参
 def PrintMes(value,color){
     //定义字典
@@ -19,5 +18,4 @@ def PrintMes(value,color){
         println(colors[color])
     }
 }
-
 
